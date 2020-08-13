@@ -21,7 +21,6 @@ sbt package
 ```
 
 5. **Testing the application**
-
    - Open up a new console window and execute the `nc` command:
    ```bash
    nc -lk 9999
@@ -30,8 +29,8 @@ sbt package
    ```bash
    /opt/spark/bin/spark-submit --class src.main.scala.WordCountWithStateAndTimeout target/scala-2.11/spark-streaming_2.11-3.0.jar "localhost" "9999"
    ```  
-   - Get back to the `nc` window and start sending messages.
 
+   - Get back to the `nc` window and start sending messages.
       - Messages:
       ```
       2020-08-04 10:00:00.000,message numero 1
@@ -47,5 +46,4 @@ sbt package
       2020-08-04 11:00:55.000,message numero 11
       2020-08-04 11:00:05.000,message numero 12
       ```
-
 :white_check_mark:
