@@ -4,8 +4,7 @@
    - [spark (2.4.6)](https://spark.apache.org/downloads.html)
    - [nc](https://linuxize.com/post/netcat-nc-command-with-examples/#:~:text=Netcat%20(or%20nc%20)%20is%20a,army%20knife%20of%20networking%20tools.)
    - It was not mentioned, but we use [sdkman](https://sdkman.io/) to install the most part of the requirements
-   
->>>>>>> 21910395365bf0a4e7c8deafabe5f24861691709
+
 2. **Create the project folder structure**
 ```bash
 mkdir <project_name>/
